@@ -1,0 +1,91 @@
+body{
+    background-image: url('anh1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(130, 230, 230, 0.915);
+}
+.class1{   
+    font-family: 'Pacifico';
+    margin-top: 70px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.class2{
+    font-family: 'Pacifico';
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.class3{
+    width: 120px;
+    height: 45px;
+    border-radius: 8px ;
+    background-color: rgb(156, 52, 52);
+    margin-right: 50px;
+    color: white;
+}
+.class4{
+    position: relative;
+    width: 120px;
+    height: 45px;
+    border-radius: 8px ;
+    background-color: rgb(77, 62, 133);
+    margin-left: 50px;
+    color: white;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(26, 11, 43) transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
